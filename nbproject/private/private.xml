@@ -3,10 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/command/Command_admininfo.java</file>
             <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/listener/ChatListener.java</file>
+            <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/command/Command_cry.java</file>
             <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/listener/JoinListener.java</file>
             <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/listener/EmojiListener.java</file>
+            <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/command/Command_hug.java</file>
+            <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/command/Command_plugins.java</file>
             <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/me/taahanis/foputils/command/Command_fopurl.java</file>
+            <file>file:/C:/Users/moh_a/Documents/NetBeansProjects/FOPUtils2/src/plugin.yml</file>
         </group>
     </open-files>
 </project-private>
