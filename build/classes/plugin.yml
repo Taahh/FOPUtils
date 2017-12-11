@@ -1,0 +1,7 @@
+name: MFOPUtils
+version: 0.5
+description: A utility plugin for FrostedOP
+authors: [taahanis]
+softdepend: [Aero]
+depend: [Aero]
+main: me.taahanis.foputils.FOPUtils
