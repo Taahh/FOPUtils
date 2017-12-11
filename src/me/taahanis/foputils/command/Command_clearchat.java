@@ -8,6 +8,7 @@ import net.pravian.aero.command.SourceType;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
 @CommandOptions(source = SourceType.ANY, permission = "fopu.cc", aliases = "cc", description = "Clear the chat", usage = "/<command>")
 public class Command_clearchat extends SimpleCommand<FOPUtils>
@@ -43,27 +44,30 @@ public class Command_clearchat extends SimpleCommand<FOPUtils>
         
         else if (args[0].equalsIgnoreCase("-a"))
                 {
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage("                                                                              ");
-                    Bukkit.broadcastMessage(ChatColor.RED + "Chat cleared by " + sender.getName());
+                    for (Player player : Bukkit.getOnlinePlayers()) {
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage("                                                                              ");
+        sender.sendMessage(ChatColor.RED + sender.getName() + " has cleared the chat!");
+                    }
                     
                     
                 }
