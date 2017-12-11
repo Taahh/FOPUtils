@@ -5,6 +5,7 @@ import net.md_5.bungee.api.ChatColor;
 import net.pravian.aero.command.CommandOptions;
 import net.pravian.aero.command.SimpleCommand;
 import net.pravian.aero.command.SourceType;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
@@ -14,6 +15,8 @@ public class Command_clearchat extends SimpleCommand<FOPUtils>
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String string, String[] args) {
+        
+        if (args.length == 0) {
         sender.sendMessage("                                                                              ");
         sender.sendMessage("                                                                              ");
         sender.sendMessage("                                                                              ");
@@ -36,6 +39,34 @@ public class Command_clearchat extends SimpleCommand<FOPUtils>
         sender.sendMessage("                                                                              ");
         sender.sendMessage("                                                                              ");
         sender.sendMessage(ChatColor.RED + sender.getName() + " has cleared the chat!");
+        }
+        
+        else if (args[0].equalsIgnoreCase("-a"))
+                {
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage("                                                                              ");
+                    Bukkit.broadcastMessage(ChatColor.RED + "Chat cleared by " + sender.getName());
+                    
+                    
+                }
         
         
         return true;
